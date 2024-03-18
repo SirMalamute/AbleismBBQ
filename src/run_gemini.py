@@ -51,7 +51,7 @@ with open("Disability_status.json.txt", "r") as file:
                 output = pd.concat([output, df_dictionary], ignore_index=True)
         except:
             pass
-        output.to_csv("backup2.csv")
+        output.to_csv("backup_2.csv")
         print("___BACKUP___")
             #print(output.head())
             #break
